@@ -67,7 +67,6 @@ def play_game():
     while not is_game_over:      
 #Hint 6: Call calculate_score(). If the computer or the user has a blackjack (0) or if the user's score is over 21, then the game ends.
         user_score = calculate_score(user_cards)
-        print(user_score)
         computer_score = calculate_score(computer_cards)
         print(f"    Your cards: {user_cards}    currentscore: {user_score}")
         print(f"    Computer first card: {computer_cards[0]}")
